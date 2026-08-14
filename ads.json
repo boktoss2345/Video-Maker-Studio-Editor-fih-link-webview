@@ -1,56 +1,94 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-
   "initialDelaySeconds": 300,
   "showDurationSeconds": 5,
   "repeatEverySeconds": 5,
-
   "countdown": {
     "enabled": true,
     "seconds": 5,
-    "style": "circle",
-    "position": "topRight",
     "autoCloseAtZero": true
   },
-
   "behavior": {
-    "selectionMode": "random",
-    "refreshConfigBeforeShow": true,
-    "pauseWhileAppInBackground": true
+    "selectionMode": "sequence",
+    "refreshConfigBeforeShow": true
   },
-
   "overlay": {
     "enabled": true,
-    "opacity": 0.82,
+    "scrimColor": "#99000000",
     "dismissOnOutsideTap": false,
-    "dismissOnBackPress": false
+    "gravity": "center",
+    "paddingDp": 16
   },
-
   "ads": [
     {
-      "id": "recipe_keeper_01",
+      "id": "sample-house-ad",
       "enabled": true,
-
       "elements": [
         {
-          "type": "image",
-          "enabled": true,
-          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/images4165.png",
-          "widthPercent": 82,
-          "maxWidthDp": 420,
-          "contentScale": "fit",
-          "cornerRadiusDp": 24,
-          "clickable": true,
-          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
-        },
-        {
-          "type": "countdown",
-          "enabled": true,
-          "seconds": 5,
-          "style": "circle",
-          "position": "topRight",
-          "autoCloseAtZero": true
+          "type": "card",
+          "widthPercent": 92,
+          "maxWidthDp": 520,
+          "paddingDp": 16,
+          "marginDp": 8,
+          "backgroundColor": "#FF20222C",
+          "cornerRadiusDp": 20,
+          "children": [
+            {
+              "type": "image",
+              "src": "https://your-cdn.example/house-ad.jpg",
+              "aspectRatio": "16:9",
+              "contentScale": "crop",
+              "cornerRadiusDp": 14,
+              "clickable": true,
+              "url": "https://www.amazon.com/dp/EXAMPLE"
+            },
+            {
+              "type": "countdown",
+              "position": "topRight",
+              "sizeDp": 42,
+              "marginDp": 8,
+              "style": "circle",
+              "backgroundColor": "#CC111111",
+              "textColor": "#FFFFFFFF",
+              "autoCloseAtZero": true
+            },
+            {
+              "type": "spacer",
+              "heightDp": 12
+            },
+            {
+              "type": "title",
+              "text": "Your title from ads.json",
+              "textSizeSp": 22,
+              "textColor": "#FFFFFFFF",
+              "gravity": "center"
+            },
+            {
+              "type": "subtitle",
+              "text": "The whole layout and action are remote controlled.",
+              "textSizeSp": 14,
+              "textColor": "#FFD7D7D7",
+              "gravity": "center",
+              "marginDp": 4
+            },
+            {
+              "type": "divider",
+              "color": "#44FFFFFF",
+              "heightDp": 1,
+              "marginDp": 10
+            },
+            {
+              "type": "button",
+              "text": "Open Amazon",
+              "backgroundColor": "#FF6C4DFF",
+              "textColor": "#FFFFFFFF",
+              "cornerRadiusDp": 12,
+              "paddingDp": 8,
+              "marginDp": 4,
+              "url": "amzn://apps/android?p=com.amazon.mShop.android.shopping"
+            }
+          ]
         }
       ]
     }
