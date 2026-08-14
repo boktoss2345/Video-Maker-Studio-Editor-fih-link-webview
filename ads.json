@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "enabled": true,
 
-  "initialDelaySeconds": 5,
+  "initialDelaySeconds": 300,
   "showDurationSeconds": 5,
   "repeatEverySeconds": 5,
 
@@ -31,6 +31,7 @@
     {
       "id": "recipe_keeper_01",
       "enabled": true,
+
       "elements": [
         {
           "type": "image",
