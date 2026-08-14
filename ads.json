@@ -22,7 +22,7 @@
   },
   "ads": [
     {
-      "id": "sample-house-ad",
+      "id": "amazon-b0h7sbr4mw",
       "enabled": true,
       "elements": [
         {
@@ -30,18 +30,17 @@
           "widthPercent": 92,
           "maxWidthDp": 520,
           "paddingDp": 16,
-          "marginDp": 8,
           "backgroundColor": "#FF20222C",
           "cornerRadiusDp": 20,
           "children": [
             {
               "type": "image",
-              "src": "https://your-cdn.example/house-ad.jpg",
+              "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/images4165.png",
               "aspectRatio": "16:9",
               "contentScale": "crop",
               "cornerRadiusDp": 14,
               "clickable": true,
-              "url": "https://www.amazon.com/dp/EXAMPLE"
+              "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             },
             {
               "type": "countdown",
@@ -59,34 +58,20 @@
             },
             {
               "type": "title",
-              "text": "Your title from ads.json",
-              "textSizeSp": 22,
+              "text": "View this offer on Amazon",
+              "textSizeSp": 21,
               "textColor": "#FFFFFFFF",
               "gravity": "center"
             },
             {
-              "type": "subtitle",
-              "text": "The whole layout and action are remote controlled.",
-              "textSizeSp": 14,
-              "textColor": "#FFD7D7D7",
-              "gravity": "center",
-              "marginDp": 4
-            },
-            {
-              "type": "divider",
-              "color": "#44FFFFFF",
-              "heightDp": 1,
-              "marginDp": 10
-            },
-            {
               "type": "button",
-              "text": "Open Amazon",
-              "backgroundColor": "#FF6C4DFF",
-              "textColor": "#FFFFFFFF",
+              "text": "Buy on Amazon",
+              "backgroundColor": "#FFFF9900",
+              "textColor": "#FF111111",
               "cornerRadiusDp": 12,
               "paddingDp": 8,
-              "marginDp": 4,
-              "url": "amzn://apps/android?p=com.amazon.mShop.android.shopping"
+              "marginDp": 8,
+              "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             }
           ]
         }
