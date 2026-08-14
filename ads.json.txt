@@ -17,8 +17,7 @@
   "behavior": {
     "selectionMode": "random",
     "refreshConfigBeforeShow": true,
-    "pauseWhileAppInBackground": true,
-    "avoidImmediateRepeat": true
+    "pauseWhileAppInBackground": true
   },
 
   "overlay": {
@@ -32,7 +31,6 @@
     {
       "id": "recipe_keeper_01",
       "enabled": true,
-
       "elements": [
         {
           "type": "image",
