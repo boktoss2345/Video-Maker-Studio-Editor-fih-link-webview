@@ -40,7 +40,7 @@
               "contentScale": "crop",
               "cornerRadiusDp": 14,
               "clickable": true,
-              "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+              "url": "amzn://apps/android?asin=B0H7SBR4MW"
             },
             {
               "type": "countdown",
@@ -58,20 +58,20 @@
             },
             {
               "type": "title",
-              "text": "View this offer on Amazon",
+              "text": "View this offer on Amazon Appstore",
               "textSizeSp": 21,
               "textColor": "#FFFFFFFF",
               "gravity": "center"
             },
             {
               "type": "button",
-              "text": "Buy on Amazon",
+              "text": "Open in Amazon Appstore",
               "backgroundColor": "#FFFF9900",
               "textColor": "#FF111111",
               "cornerRadiusDp": 12,
               "paddingDp": 8,
               "marginDp": 8,
-              "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+              "url": "amzn://apps/android?asin=B0H7SBR4MW"
             }
           ]
         }
