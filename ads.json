@@ -1,6 +1,3 @@
-حط هاد المحتوى كامل فـ`ads.json` ديال GitHub:
-
-```json
 {
   "schemaVersion": 1,
   "enabled": true,
@@ -82,4 +79,3 @@
     }
   ]
 }
-```
