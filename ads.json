@@ -1,7 +1,10 @@
+حط هاد المحتوى كامل فـ`ads.json` ديال GitHub:
+
+```json
 {
   "schemaVersion": 1,
   "enabled": true,
-  "initialDelaySeconds": 3,
+  "initialDelaySeconds": 300,
   "showDurationSeconds": 5,
   "repeatEverySeconds": 5,
   "countdown": {
@@ -40,7 +43,7 @@
               "contentScale": "crop",
               "cornerRadiusDp": 14,
               "clickable": true,
-              "url": "amzn://apps/android?asin=B0H7SBR4MW"
+              "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             },
             {
               "type": "countdown",
@@ -58,20 +61,20 @@
             },
             {
               "type": "title",
-              "text": "View this offer on Amazon Appstore",
+              "text": "View this offer on Amazon",
               "textSizeSp": 21,
               "textColor": "#FFFFFFFF",
               "gravity": "center"
             },
             {
               "type": "button",
-              "text": "Open in Amazon Appstore",
+              "text": "Buy on Amazon",
               "backgroundColor": "#FFFF9900",
               "textColor": "#FF111111",
               "cornerRadiusDp": 12,
               "paddingDp": 8,
               "marginDp": 8,
-              "url": "amzn://apps/android?asin=B0H7SBR4MW"
+              "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             }
           ]
         }
@@ -79,3 +82,4 @@
     }
   ]
 }
+```
