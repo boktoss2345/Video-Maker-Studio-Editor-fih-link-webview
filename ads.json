@@ -60,7 +60,7 @@
 
             {
               "type": "title",
-              "text": "View this offer on Amazon",
+              "text": "CapCut Video Editor",
               "textSizeSp": 21,
               "textColor": "#FFFFFFFF",
               "gravity": "center",
@@ -70,7 +70,7 @@
 
             {
               "type": "button",
-              "text": "Buy on Amazon",
+              "text": "Get on Amazon",
               "backgroundColor": "#FFFF9900",
               "textColor": "#FF111111",
               "cornerRadiusDp": 12,
