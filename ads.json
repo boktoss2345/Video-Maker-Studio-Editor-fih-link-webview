@@ -3,12 +3,12 @@
   "enabled": true,
 
   "initialDelaySeconds": 5,
-  "showDurationSeconds": 0,
-  "repeatEverySeconds": 0,
+  "showDurationSeconds": 86400,
+  "repeatEverySeconds": 86400,
 
   "countdown": {
     "enabled": false,
-    "seconds": 0,
+    "seconds": 5,
     "autoCloseAtZero": false
   },
 
@@ -29,7 +29,6 @@
     {
       "id": "amazon-b0h7sbr4mw",
       "enabled": true,
-
       "elements": [
         {
           "type": "card",
@@ -38,7 +37,6 @@
           "paddingDp": 16,
           "backgroundColor": "#FF20222C",
           "cornerRadiusDp": 20,
-
           "children": [
             {
               "type": "video",
@@ -46,12 +44,10 @@
               "aspectRatio": "16:9",
               "contentScale": "crop",
               "cornerRadiusDp": 14,
-
               "autoplay": true,
               "loop": true,
               "muted": true,
               "controls": false,
-
               "clickable": true,
               "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             },
