@@ -24,7 +24,7 @@
     "scrimColor": "#99000000",
     "dismissOnOutsideTap": false,
     "gravity": "center",
-    "paddingDp": 4
+    "paddingDp": 6
   },
 
   "ads": [
@@ -36,21 +36,18 @@
         {
           "type": "card",
           "widthPercent": 97,
-          "heightPercent": 94,
           "maxWidthDp": 700,
-          "paddingDp": 6,
+          "paddingDp": 8,
           "backgroundColor": "#FF20222C",
-          "cornerRadiusDp": 14,
+          "cornerRadiusDp": 16,
 
           "children": [
             {
               "type": "video",
               "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/videos12456.mp4",
-
-              "widthPercent": 100,
-              "heightPercent": 82,
+              "aspectRatio": "16:9",
               "contentScale": "crop",
-              "cornerRadiusDp": 10,
+              "cornerRadiusDp": 12,
 
               "autoplay": true,
               "loop": true,
@@ -63,7 +60,7 @@
 
             {
               "type": "spacer",
-              "heightDp": 6
+              "heightDp": 10
             },
 
             {
@@ -83,7 +80,7 @@
               "textColor": "#FF111111",
               "cornerRadiusDp": 12,
               "paddingDp": 10,
-              "marginDp": 6,
+              "marginDp": 8,
               "clickable": true,
               "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             }
