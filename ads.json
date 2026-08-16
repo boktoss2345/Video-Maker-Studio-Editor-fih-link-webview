@@ -36,7 +36,7 @@
         {
           "type": "card",
           "widthPercent": 97,
-          "heightPercent": 94,
+          "heightPercent": 78,
           "maxWidthDp": 700,
           "paddingDp": 6,
           "backgroundColor": "#FF20222C",
@@ -48,7 +48,7 @@
               "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/videos12456.mp4",
 
               "widthPercent": 100,
-              "heightPercent": 82,
+              "heightPercent": 70,
               "contentScale": "crop",
               "cornerRadiusDp": 10,
 
