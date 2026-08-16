@@ -14,7 +14,9 @@
 
   "behavior": {
     "selectionMode": "sequence",
-    "refreshConfigBeforeShow": true
+    "refreshConfigBeforeShow": true,
+    "reshowAfterExternalReturn": true,
+    "externalReturnDelaySeconds": 1
   },
 
   "overlay": {
@@ -22,21 +24,22 @@
     "scrimColor": "#99000000",
     "dismissOnOutsideTap": false,
     "gravity": "center",
-    "paddingDp": 16
+    "paddingDp": 6
   },
 
   "ads": [
     {
       "id": "amazon-b0h7sbr4mw",
       "enabled": true,
+
       "elements": [
         {
           "type": "card",
-          "widthPercent": 92,
-          "maxWidthDp": 520,
-          "paddingDp": 16,
+          "widthPercent": 97,
+          "maxWidthDp": 700,
+          "paddingDp": 8,
           "backgroundColor": "#FF20222C",
-          "cornerRadiusDp": 20,
+          "cornerRadiusDp": 16,
 
           "children": [
             {
@@ -44,18 +47,20 @@
               "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/videos12456.mp4",
               "aspectRatio": "16:9",
               "contentScale": "crop",
-              "cornerRadiusDp": 14,
+              "cornerRadiusDp": 12,
+
               "autoplay": true,
               "loop": true,
               "muted": true,
               "controls": false,
+
               "clickable": true,
               "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             },
 
             {
               "type": "spacer",
-              "heightDp": 12
+              "heightDp": 10
             },
 
             {
@@ -74,7 +79,7 @@
               "backgroundColor": "#FFFF9900",
               "textColor": "#FF111111",
               "cornerRadiusDp": 12,
-              "paddingDp": 8,
+              "paddingDp": 10,
               "marginDp": 8,
               "clickable": true,
               "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
