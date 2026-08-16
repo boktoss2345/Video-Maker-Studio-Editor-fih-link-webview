@@ -4,7 +4,7 @@
 
   "initialDelaySeconds": 5,
   "showDurationSeconds": 86400,
-  "repeatEverySeconds": 86400,
+  "repeatEverySeconds": 5,
 
   "countdown": {
     "enabled": false,
@@ -37,6 +37,7 @@
           "paddingDp": 16,
           "backgroundColor": "#FF20222C",
           "cornerRadiusDp": 20,
+
           "children": [
             {
               "type": "video",
