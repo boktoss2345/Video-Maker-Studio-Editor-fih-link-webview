@@ -19,7 +19,7 @@
 
   "overlay": {
     "enabled": true,
-    "scrimColor": "#99000000",
+    "scrimColor": "#B3000000",
     "dismissOnOutsideTap": false,
     "gravity": "center",
     "paddingDp": 16
@@ -35,7 +35,7 @@
           "widthPercent": 92,
           "maxWidthDp": 520,
           "paddingDp": 16,
-          "backgroundColor": "#FF20222C",
+          "backgroundColor": "#FF14151C",
           "cornerRadiusDp": 20,
 
           "children": [
