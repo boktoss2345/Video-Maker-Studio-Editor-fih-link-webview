@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
   "enabled": true,
+
   "initialDelaySeconds": 5,
-  "showDurationSeconds": 50,
-  "repeatEverySeconds": 50,
+  "showDurationSeconds": 0,
+  "repeatEverySeconds": 0,
 
   "countdown": {
-    "enabled": true,
-    "seconds": 5,
-    "autoCloseAtZero": true
+    "enabled": false,
+    "seconds": 0,
+    "autoCloseAtZero": false
   },
 
   "behavior": {
@@ -28,6 +29,7 @@
     {
       "id": "amazon-b0h7sbr4mw",
       "enabled": true,
+
       "elements": [
         {
           "type": "card",
@@ -55,17 +57,6 @@
             },
 
             {
-              "type": "countdown",
-              "position": "topRight",
-              "sizeDp": 42,
-              "marginDp": 8,
-              "style": "circle",
-              "backgroundColor": "#CC111111",
-              "textColor": "#FFFFFFFF",
-              "autoCloseAtZero": true
-            },
-
-            {
               "type": "spacer",
               "heightDp": 12
             },
@@ -88,6 +79,7 @@
               "cornerRadiusDp": 12,
               "paddingDp": 8,
               "marginDp": 8,
+              "clickable": true,
               "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             }
           ]
