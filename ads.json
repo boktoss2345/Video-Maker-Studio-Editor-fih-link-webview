@@ -2,17 +2,20 @@
   "schemaVersion": 1,
   "enabled": true,
   "initialDelaySeconds": 5,
-  "showDurationSeconds": 5,
-  "repeatEverySeconds": 5,
+  "showDurationSeconds": 50,
+  "repeatEverySeconds": 50,
+
   "countdown": {
     "enabled": true,
     "seconds": 5,
     "autoCloseAtZero": true
   },
+
   "behavior": {
     "selectionMode": "sequence",
     "refreshConfigBeforeShow": true
   },
+
   "overlay": {
     "enabled": true,
     "scrimColor": "#99000000",
@@ -20,6 +23,7 @@
     "gravity": "center",
     "paddingDp": 16
   },
+
   "ads": [
     {
       "id": "amazon-b0h7sbr4mw",
@@ -32,16 +36,24 @@
           "paddingDp": 16,
           "backgroundColor": "#FF20222C",
           "cornerRadiusDp": 20,
+
           "children": [
             {
-              "type": "image",
-              "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/images4165.png",
+              "type": "video",
+              "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/videos12456.mp4",
               "aspectRatio": "16:9",
               "contentScale": "crop",
               "cornerRadiusDp": 14,
+
+              "autoplay": true,
+              "loop": true,
+              "muted": true,
+              "controls": false,
+
               "clickable": true,
               "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             },
+
             {
               "type": "countdown",
               "position": "topRight",
@@ -52,17 +64,22 @@
               "textColor": "#FFFFFFFF",
               "autoCloseAtZero": true
             },
+
             {
               "type": "spacer",
               "heightDp": 12
             },
+
             {
               "type": "title",
               "text": "View this offer on Amazon",
               "textSizeSp": 21,
               "textColor": "#FFFFFFFF",
-              "gravity": "center"
+              "gravity": "center",
+              "clickable": true,
+              "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
             },
+
             {
               "type": "button",
               "text": "Buy on Amazon",
