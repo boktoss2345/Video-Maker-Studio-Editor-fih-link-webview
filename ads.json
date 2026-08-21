@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "enabled": true,
+
   "initialDelaySeconds": 5,
   "showDurationSeconds": 86400,
   "repeatEverySeconds": 1,
@@ -29,65 +30,20 @@
 
   "ads": [
     {
-      "id": "image465",
+      "id": "image5556565",
       "enabled": true,
+
       "elements": [
         {
           "type": "image",
           "enabled": true,
-          "src": "https://boktoss2345.github.io/Block-Video-Studio-Editor/assets/{
-  "schemaVersion": 1,
-  "enabled": true,
-  "initialDelaySeconds": 5,
-  "showDurationSeconds": 86400,
-  "repeatEverySeconds": 1,
+          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/image5556565.png",
 
-  "countdown": {
-    "enabled": false,
-    "seconds": 10,
-    "style": "circle",
-    "position": "topRight",
-    "autoCloseAtZero": false
-  },
-
-  "behavior": {
-    "selectionMode": "random",
-    "refreshConfigBeforeShow": true,
-    "pauseWhileAppInBackground": true,
-    "avoidImmediateRepeat": false
-  },
-
-  "overlay": {
-    "enabled": true,
-    "opacity": 0.82,
-    "dismissOnOutsideTap": false,
-    "dismissOnBackPress": false
-  },
-
-  "ads": [
-    {
-      "id": "image465",
-      "enabled": true,
-      "elements": [
-        {
-          "type": "image",
-          "enabled": true,
-          "src": "https://boktoss2345.github.io/Block-Video-Studio-Editor/assets/image465.jpg",
-          "widthPercent": 82,
-          "maxWidthDp": 420,
+          "widthPercent": 92,
+          "maxWidthDp": 520,
           "contentScale": "fit",
-          "cornerRadiusDp": 24,
-          "clickable": true,
-          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
-        }
-      ]
-    }
-  ]
-}",
-          "widthPercent": 82,
-          "maxWidthDp": 420,
-          "contentScale": "fit",
-          "cornerRadiusDp": 24,
+          "cornerRadiusDp": 20,
+
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
         }
