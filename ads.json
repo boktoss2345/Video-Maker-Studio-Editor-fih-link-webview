@@ -3,8 +3,8 @@
   "enabled": true,
 
   "initialDelaySeconds": 10,
-  "showDurationSeconds": 5,
-  "repeatEverySeconds": 1,
+  "showDurationSeconds": 10,
+  "repeatEverySeconds": 10,
 
   "countdown": {
     "enabled": false,
