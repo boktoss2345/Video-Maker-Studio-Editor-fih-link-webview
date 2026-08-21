@@ -33,7 +33,7 @@
       "enabled": true,
       "elements": [
         {
-          "type": "video",
+          "type": "image",
           "enabled": true,
           "src": "https://boktoss2345.github.io/Block-Video-Studio-Editor/assets/videos12456.mp4",
           "autoplay": true,
