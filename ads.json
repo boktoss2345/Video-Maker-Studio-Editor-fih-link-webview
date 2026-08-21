@@ -3,7 +3,7 @@
   "enabled": true,
 
   "initialDelaySeconds": 10,
-  "showDurationSeconds": 1,
+  "showDurationSeconds": 86400,
   "repeatEverySeconds": 1,
 
   "countdown": {
@@ -15,7 +15,7 @@
   },
 
   "behavior": {
-    "selectionMode": "random",
+    "selectionMode": "sequence",
     "refreshConfigBeforeShow": true,
     "pauseWhileAppInBackground": true,
     "avoidImmediateRepeat": false
