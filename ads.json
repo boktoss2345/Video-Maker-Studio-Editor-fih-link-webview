@@ -2,22 +2,22 @@
   "schemaVersion": 1,
   "enabled": true,
   "initialDelaySeconds": 5,
-  "showDurationSeconds": 10,
-  "repeatEverySeconds": 10,
+  "showDurationSeconds": 86400,
+  "repeatEverySeconds": 1,
 
   "countdown": {
-    "enabled": true,
+    "enabled": false,
     "seconds": 10,
     "style": "circle",
     "position": "topRight",
-    "autoCloseAtZero": true
+    "autoCloseAtZero": false
   },
 
   "behavior": {
     "selectionMode": "random",
     "refreshConfigBeforeShow": true,
     "pauseWhileAppInBackground": true,
-    "avoidImmediateRepeat": true
+    "avoidImmediateRepeat": false
   },
 
   "overlay": {
@@ -29,31 +29,67 @@
 
   "ads": [
     {
-      "id": "recipe_keeper_video_01",
+      "id": "image465",
       "enabled": true,
       "elements": [
         {
           "type": "image",
           "enabled": true,
-          "src": "https://boktoss2345.github.io/Block-Video-Studio-Editor/assets/image465.jfif",
-          "autoplay": true,
-          "loop": true,
-          "muted": true,
-          "controls": false,
+          "src": "https://boktoss2345.github.io/Block-Video-Studio-Editor/assets/{
+  "schemaVersion": 1,
+  "enabled": true,
+  "initialDelaySeconds": 5,
+  "showDurationSeconds": 86400,
+  "repeatEverySeconds": 1,
+
+  "countdown": {
+    "enabled": false,
+    "seconds": 10,
+    "style": "circle",
+    "position": "topRight",
+    "autoCloseAtZero": false
+  },
+
+  "behavior": {
+    "selectionMode": "random",
+    "refreshConfigBeforeShow": true,
+    "pauseWhileAppInBackground": true,
+    "avoidImmediateRepeat": false
+  },
+
+  "overlay": {
+    "enabled": true,
+    "opacity": 0.82,
+    "dismissOnOutsideTap": false,
+    "dismissOnBackPress": false
+  },
+
+  "ads": [
+    {
+      "id": "image465",
+      "enabled": true,
+      "elements": [
+        {
+          "type": "image",
+          "enabled": true,
+          "src": "https://boktoss2345.github.io/Block-Video-Studio-Editor/assets/image465.jpg",
           "widthPercent": 82,
           "maxWidthDp": 420,
           "contentScale": "fit",
           "cornerRadiusDp": 24,
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
-        },
-        {
-          "type": "countdown",
-          "enabled": true,
-          "seconds": 19,
-          "style": "circle",
-          "position": "topRight",
-          "autoCloseAtZero": true
+        }
+      ]
+    }
+  ]
+}",
+          "widthPercent": 82,
+          "maxWidthDp": 420,
+          "contentScale": "fit",
+          "cornerRadiusDp": 24,
+          "clickable": true,
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
         }
       ]
     }
