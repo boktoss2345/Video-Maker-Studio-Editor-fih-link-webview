@@ -1,33 +1,25 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-
   "initialDelaySeconds": 10,
   "showDurationSeconds": 20,
   "repeatEverySeconds": 10,
-
   "countdown": {
     "enabled": true,
     "seconds": 20,
-    "style": "circle",
-    "position": "topRight",
     "autoCloseAtZero": true
   },
-
   "behavior": {
-    "selectionMode": "sequential",
-    "refreshConfigBeforeShow": true,
-    "pauseWhileAppInBackground": true,
-    "avoidImmediateRepeat": true
+    "selectionMode": "sequence",
+    "refreshConfigBeforeShow": true
   },
-
   "overlay": {
     "enabled": true,
-    "opacity": 0.82,
+    "scrimColor": "#D1000000",
     "dismissOnOutsideTap": false,
-    "dismissOnBackPress": false
+    "gravity": "center",
+    "paddingDp": 0
   },
-
   "ads": [
     {
       "id": "capcut_video_01",
@@ -37,17 +29,14 @@
           "type": "video",
           "enabled": true,
           "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/086357.mp4",
-
           "autoplay": true,
           "loop": true,
           "muted": true,
           "controls": false,
-
           "widthPercent": 94,
           "maxWidthDp": 760,
           "contentScale": "fit",
           "cornerRadiusDp": 20,
-
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0HB6YN5DY"
         },
@@ -55,21 +44,14 @@
           "type": "button",
           "enabled": true,
           "text": "DOWNLOAD\nGoogle Play Store Manager",
-
           "widthPercent": 82,
           "maxWidthDp": 420,
-          "heightDp": 64,
-
-          "marginTopDp": 12,
-
+          "marginDp": 12,
           "backgroundColor": "#FFD400",
           "textColor": "#000000",
           "textSizeSp": 18,
-          "fontWeight": "bold",
           "cornerRadiusDp": 16,
-
           "gravity": "center",
-
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0HB6YN5DY"
         },
@@ -83,7 +65,6 @@
         }
       ]
     },
-
     {
       "id": "capcut_video_02",
       "enabled": true,
@@ -92,17 +73,14 @@
           "type": "video",
           "enabled": true,
           "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/videos12456.mp4",
-
           "autoplay": true,
           "loop": true,
           "muted": true,
           "controls": false,
-
           "widthPercent": 82,
           "maxWidthDp": 420,
           "contentScale": "fit",
           "cornerRadiusDp": 24,
-
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
         },
@@ -110,21 +88,14 @@
           "type": "button",
           "enabled": true,
           "text": "DOWNLOAD\nCapcut Without Ads",
-
           "widthPercent": 82,
           "maxWidthDp": 420,
-          "heightDp": 64,
-
-          "marginTopDp": 12,
-
+          "marginDp": 12,
           "backgroundColor": "#FFD400",
           "textColor": "#000000",
           "textSizeSp": 18,
-          "fontWeight": "bold",
           "cornerRadiusDp": 16,
-
           "gravity": "center",
-
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
         },
@@ -138,7 +109,6 @@
         }
       ]
     },
-
     {
       "id": "capcut_image_03",
       "enabled": true,
@@ -147,12 +117,10 @@
           "type": "image",
           "enabled": true,
           "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/images5646.png",
-
           "widthPercent": 82,
           "maxWidthDp": 420,
           "contentScale": "fit",
           "cornerRadiusDp": 24,
-
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
         },
@@ -160,21 +128,14 @@
           "type": "button",
           "enabled": true,
           "text": "DOWNLOAD\nCapcut Without Ads",
-
           "widthPercent": 82,
           "maxWidthDp": 420,
-          "heightDp": 64,
-
-          "marginTopDp": 12,
-
+          "marginDp": 12,
           "backgroundColor": "#FFD400",
           "textColor": "#000000",
           "textSizeSp": 18,
-          "fontWeight": "bold",
           "cornerRadiusDp": 16,
-
           "gravity": "center",
-
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
         },
