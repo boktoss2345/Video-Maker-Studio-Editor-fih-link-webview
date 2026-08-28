@@ -3,15 +3,15 @@
   "enabled": true,
 
   "initialDelaySeconds": 10,
-  "showDurationSeconds": 86400,
+  "showDurationSeconds": 20,
   "repeatEverySeconds": 1,
 
   "countdown": {
-    "enabled": false,
-    "seconds": 10,
+    "enabled": true,
+    "seconds": 20,
     "style": "circle",
     "position": "topRight",
-    "autoCloseAtZero": false
+    "autoCloseAtZero": true
   },
 
   "behavior": {
@@ -37,6 +37,7 @@
           "type": "video",
           "enabled": true,
           "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/086357.mp4",
+
           "autoplay": true,
           "loop": true,
           "muted": true,
@@ -75,7 +76,7 @@
         {
           "type": "countdown",
           "enabled": true,
-          "seconds": 25,
+          "seconds": 20,
           "style": "circle",
           "position": "topRight",
           "autoCloseAtZero": true
@@ -91,6 +92,7 @@
           "type": "video",
           "enabled": true,
           "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/videos12456.mp4",
+
           "autoplay": true,
           "loop": true,
           "muted": true,
@@ -129,7 +131,7 @@
         {
           "type": "countdown",
           "enabled": true,
-          "seconds": 25,
+          "seconds": 20,
           "style": "circle",
           "position": "topRight",
           "autoCloseAtZero": true
@@ -179,7 +181,7 @@
         {
           "type": "countdown",
           "enabled": true,
-          "seconds": 25,
+          "seconds": 20,
           "style": "circle",
           "position": "topRight",
           "autoCloseAtZero": true
