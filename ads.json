@@ -15,10 +15,10 @@
   },
 
   "behavior": {
-    "selectionMode": "sequence",
+    "selectionMode": "sequential",
     "refreshConfigBeforeShow": true,
     "pauseWhileAppInBackground": true,
-    "avoidImmediateRepeat": false
+    "avoidImmediateRepeat": true
   },
 
   "overlay": {
@@ -30,45 +30,159 @@
 
   "ads": [
     {
-      "id": "image5556565",
+      "id": "capcut_video_01",
       "enabled": true,
-
       "elements": [
         {
-          "type": "image",
+          "type": "video",
           "enabled": true,
-          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/image5556565.png",
+          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/086357.mp4",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "controls": false,
 
-          "widthPercent": 97,
-          "maxWidthDp": 650,
+          "widthPercent": 94,
+          "maxWidthDp": 760,
           "contentScale": "fit",
           "cornerRadiusDp": 20,
 
           "clickable": true,
-          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0HB6YN5DY"
         },
-
         {
           "type": "button",
           "enabled": true,
+          "text": "DOWNLOAD\nGoogle Play Store Manager",
 
-          "text": "Update Capcut",
-
-          "widthPercent": 90,
-          "maxWidthDp": 600,
-          "heightDp": 58,
+          "widthPercent": 82,
+          "maxWidthDp": 420,
+          "heightDp": 64,
 
           "marginTopDp": 12,
-          "marginBottomDp": 8,
 
           "backgroundColor": "#FFD400",
           "textColor": "#000000",
-          "textSizeSp": 20,
+          "textSizeSp": 18,
           "fontWeight": "bold",
-          "cornerRadiusDp": 14,
+          "cornerRadiusDp": 16,
+
+          "gravity": "center",
+
+          "clickable": true,
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0HB6YN5DY"
+        },
+        {
+          "type": "countdown",
+          "enabled": true,
+          "seconds": 25,
+          "style": "circle",
+          "position": "topRight",
+          "autoCloseAtZero": true
+        }
+      ]
+    },
+
+    {
+      "id": "capcut_video_02",
+      "enabled": true,
+      "elements": [
+        {
+          "type": "video",
+          "enabled": true,
+          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/videos12456.mp4",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "controls": false,
+
+          "widthPercent": 82,
+          "maxWidthDp": 420,
+          "contentScale": "fit",
+          "cornerRadiusDp": 24,
 
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+        },
+        {
+          "type": "button",
+          "enabled": true,
+          "text": "DOWNLOAD\nCapcut Without Ads",
+
+          "widthPercent": 82,
+          "maxWidthDp": 420,
+          "heightDp": 64,
+
+          "marginTopDp": 12,
+
+          "backgroundColor": "#FFD400",
+          "textColor": "#000000",
+          "textSizeSp": 18,
+          "fontWeight": "bold",
+          "cornerRadiusDp": 16,
+
+          "gravity": "center",
+
+          "clickable": true,
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+        },
+        {
+          "type": "countdown",
+          "enabled": true,
+          "seconds": 25,
+          "style": "circle",
+          "position": "topRight",
+          "autoCloseAtZero": true
+        }
+      ]
+    },
+
+    {
+      "id": "capcut_image_03",
+      "enabled": true,
+      "elements": [
+        {
+          "type": "image",
+          "enabled": true,
+          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/images5646.png",
+
+          "widthPercent": 82,
+          "maxWidthDp": 420,
+          "contentScale": "fit",
+          "cornerRadiusDp": 24,
+
+          "clickable": true,
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+        },
+        {
+          "type": "button",
+          "enabled": true,
+          "text": "DOWNLOAD\nCapcut Without Ads",
+
+          "widthPercent": 82,
+          "maxWidthDp": 420,
+          "heightDp": 64,
+
+          "marginTopDp": 12,
+
+          "backgroundColor": "#FFD400",
+          "textColor": "#000000",
+          "textSizeSp": 18,
+          "fontWeight": "bold",
+          "cornerRadiusDp": 16,
+
+          "gravity": "center",
+
+          "clickable": true,
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+        },
+        {
+          "type": "countdown",
+          "enabled": true,
+          "seconds": 25,
+          "style": "circle",
+          "position": "topRight",
+          "autoCloseAtZero": true
         }
       ]
     }
