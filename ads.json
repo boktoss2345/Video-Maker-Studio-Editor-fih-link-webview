@@ -38,12 +38,12 @@
           "contentScale": "fit",
           "cornerRadiusDp": 20,
           "clickable": true,
-          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0HB6YN5DY"
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0GX372L91"
         },
         {
           "type": "button",
           "enabled": true,
-          "text": "DOWNLOAD\nGoogle Play Store Manager",
+          "text": "DOWNLOAD\nCapcut Without Ads",
           "widthPercent": 82,
           "maxWidthDp": 420,
           "marginDp": 12,
@@ -53,7 +53,7 @@
           "cornerRadiusDp": 16,
           "gravity": "center",
           "clickable": true,
-          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0HB6YN5DY"
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0GX372L91"
         },
         {
           "type": "countdown",
@@ -82,7 +82,7 @@
           "contentScale": "fit",
           "cornerRadiusDp": 24,
           "clickable": true,
-          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0GX372L91"
         },
         {
           "type": "button",
@@ -97,7 +97,7 @@
           "cornerRadiusDp": 16,
           "gravity": "center",
           "clickable": true,
-          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0GX372L91"
         },
         {
           "type": "countdown",
@@ -122,7 +122,7 @@
           "contentScale": "fit",
           "cornerRadiusDp": 24,
           "clickable": true,
-          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0GX372L91"
         },
         {
           "type": "button",
@@ -137,7 +137,7 @@
           "cornerRadiusDp": 16,
           "gravity": "center",
           "clickable": true,
-          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
+          "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0GX372L91"
         },
         {
           "type": "countdown",
