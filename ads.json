@@ -26,9 +26,9 @@
       "enabled": true,
       "elements": [
         {
-          "type": "video",
+          "type": "image",
           "enabled": true,
-          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/086357.mp4",
+          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/image63454.png",
           "autoplay": true,
           "loop": true,
           "muted": true,
@@ -70,9 +70,9 @@
       "enabled": true,
       "elements": [
         {
-          "type": "video",
+          "type": "image",
           "enabled": true,
-          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/videos12456.mp4",
+          "src": "https://boktoss2345.github.io/Video-Maker-Studio-Editor-fih-link-webview/assets/image5556565.png",
           "autoplay": true,
           "loop": true,
           "muted": true,
